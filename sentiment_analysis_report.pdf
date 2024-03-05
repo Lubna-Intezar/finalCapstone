@@ -1,0 +1,18 @@
+
+Sentiment Analysis Report
+
+Dataset Description:
+The dataset contains product reviews from Amazon.
+
+Preprocessing Steps:
+1. Loaded the dataset and selected the 'reviews.text' column.
+2. Removed missing values from the selected column.
+3.Text data was preprocessed by removing stopwords and basic cleaning using spaCy
+
+Evaluation of Results:
+- Tested the sentiment analysis model on sample product reviews.
+- Predicted sentiment (Positive/Negative/Neutral) and calculated polarity score.
+
+Insights into Model's Strengths and Limitations:
+- Strengths: The model accurately predicts sentiment based on polarity scores.
+- Limitations: Limited by the accuracy of spaCy's sentiment analysis.
